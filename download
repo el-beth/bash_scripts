@@ -1,0 +1,8 @@
+#!/bin/bash
+
+dir=/media/endrias/ntfs5/$(date --rfc-3339=date);
+
+if [ ! -e $dir ]; then mkdir $dir &> /dev/null ; fi;
+
+cd $dir;
+axel -a -n 80 "$1" && paplay "/usr/share/sounds/ubuntu/notifications/Amsterdam.ogg";

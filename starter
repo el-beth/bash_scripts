@@ -1,0 +1,11 @@
+#!/bin/bash
+
+sudo mount -t ext4 /dev/sda1 /media/endrias/kali > /dev/null
+sudo mount -t ntfs /dev/sda3 /media/endrias/windows\ 7 > /dev/null
+sudo mount -t ntfs /dev/sda5 /media/endrias/ntfs5 > /dev/null
+sudo mount -t ntfs /dev/sda6 /media/endrias/ntfs6 > /dev/null
+
+echo "\"people of accomplishment rarely sat and waited for things to happen to them, they went out and happened at things\""
+echo "                                                 Verochio"
+echo "\"at the base of all understanding is the knowledge of what is and what can not be, and the consoling of that which is not in our power to change\""
+echo "                                                 Solomon Ben Judah."

@@ -1,0 +1,7 @@
+#/bin/bash
+
+stringLenth=$(strlen $1);
+cutLength=$(subtract $stringLenth 4);
+outputName=$(echo $1 | cut -c -"$cutLength");
+
+g++ -std=c++11 $1 -o $outputName;
