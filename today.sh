@@ -6,7 +6,7 @@ userName=$(whoami)
 if [ "$userName" == "root" ]
 	then echo "run this script only as not-root"
 else if [ ! -d "$todayDate" ]
-	then mkdir "$HOME/Desktop/surfDump/$todayDate";
+	then mkdir "$HOME/Desktop/surfDump/$todayDate" &> /dev/null;
 	fi;
 fi;
 
